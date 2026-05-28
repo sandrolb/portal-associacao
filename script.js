@@ -48,7 +48,7 @@ function applyTheme(theme) {
 function updateThemeButton(theme) {
     const button = document.getElementById('theme-toggle');
     if (button) {
-        button.textContent = theme === DARK_THEME ? '☀️' : '🌙';
+        button.textContent = theme === DARK_THEME ? '☀' : '☾';
     }
 }
 
